@@ -129,7 +129,7 @@ input{
 
 }
 
-input[type=text] {
+input {
     border: 0.5px solid rgb(224,224,224);
     border-radius: 4px;
     font-weight: 700;
