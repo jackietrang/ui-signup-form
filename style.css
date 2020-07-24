@@ -1,0 +1,162 @@
+
+.container {
+    display: flex;
+
+}
+
+body {
+    background: url("https://cdn.glitch.com/33d36806-f757-468a-b498-bf520a09cfc8%2Fbg-intro-desktop.png?v=1595466421954");
+    position: relative;
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+html:before {
+    content: "";
+    background: hsl(0, 100%, 50%, 0.5);
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.left{
+    width: 50%;
+    height: 100%;
+    margin-left:10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    color: white;
+    z-index: 1;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+
+    z-index: ;
+    color: white;
+    visibility: visible;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.bigT {
+    font-weight:900;
+    font-size: 40px;
+
+}
+
+.smallT {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+form{
+    background-color: white;
+    color: #474646;
+    border-radius: 5px;
+}
+
+.aboveF {
+    background-color: hsl(248, 32%, 49%);
+    margin: 20px auto 20px auto;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.formContainer {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+
+
+}
+
+.formContainer:after {
+    content:"";
+    position:absolute;
+    width:inherit;
+    height: 200%;
+    /*     bottom:10px; */
+    z-index:-1;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+#freeT {
+    background-color: hsl(154, 59%, 51%);
+    /*   padding: inherit;
+      margin: inherit;
+       */
+    text-transform: uppercase;
+    width: 85%;
+    border-radius: 5px;
+    padding: 15px;
+    border-color: hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 600;
+}
+
+.afterF{
+    color:  #b3b3b3;
+    padding: 15px;
+    font-size: 10px;
+}
+
+#term{
+    color: hsl(0, 100%, 74%);
+    font-size: 10px;
+
+}
+
+input[type=text] {
+    border: 0.5px solid rgb(224,224,224);
+    border-radius: 4px;
+    font-weight: 700;
+    color: 	rgb(112,112,112);
+}
+
+input[type=text]:hover {
+    border: 0.5px solid black;
+}
+#fname, #lname, #email, #pword {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 80%;
+    padding: 15px;
+
+}
+
+#fname {
+    margin-top: 40px;
+}
+
+#pword {
+    margin-bottom: 40px;
+}
+
+/* The shadow needs improvement*/
+.bottom-shadow {
+    box-shadow: 0 10px 5px -5px hsl(0,0%,0%,0.4);
+    border-radius: 10px;
+}
